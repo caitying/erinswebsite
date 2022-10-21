@@ -1,0 +1,102 @@
+@font-face {
+    font-family: PoppinsLight;
+    src: url(./Assets/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: PoppinsMedium;
+    src: url(./Assets/Poppins-Medium.ttf);
+}
+
+html, main{
+    background-color: #9c89b8;
+    color: #f0e6ef !important;
+    font-family: PoppinsLight;
+}
+
+header {
+    background-color: #9c89b8;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+
+.nav-item.nav-link{
+    margin-left: 20% !important;
+    color: #f0e6ef !important;
+    font-family: PoppinsMedium;
+    letter-spacing: 6px !important;
+}
+
+h5 {
+    color: #9c89b8 !important;
+    font-family: PoppinsMedium !important;
+    font-size: xx-large;
+}
+
+.btn-primary{
+    --bs-btn-color: #f0e6ef !important;
+    --bs-btn-bg: #f0a6ca !important;
+    --bs-btn-border-color: #f0a6ca !important;
+    --bs-btn-hover-color: #f0e6ef !important;
+    --bs-btn-hover-bg: #f0a6ca!important;
+    --bs-btn-hover-border-color: #f0a6ca !important;
+    --bs-btn-active-color: #f0e6ef !important;
+    --bs-btn-active-bg: #f0a6ca !important;
+    --bs-btn-active-border-color: #f0a6ca !important;
+
+}
+
+.card-title{
+    padding-top: 2rem;
+}
+
+.card{
+    background-color: #f0e6ef;
+}
+
+#abt{
+    margin:auto;
+}
+
+
+h1{
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.top-para{
+    margin-right: 25rem;
+    margin-left: 37rem ;
+    margin-top: -20rem;
+}
+
+.main-para{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+h2{
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.container div{
+    background-color: transparent;
+}
+
+.card{
+    border-color: transparent;
+}
+
+.card img{
+    border: 4px solid #f0e6ef;
+    border-radius: 25px;
+}
+
+.container{
+    justify-items: center;
+}
